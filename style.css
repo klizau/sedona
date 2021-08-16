@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+
+.page-body {
+  min-width: 1280px;
+  background-color: #888888;
+  font-family: "PT Sans";
+  color: black;
+  text-align: center;
+}
+
+.page {
+  background-color: white;
+  min-width: 1200px;
+  align-self: center;
+}
+
+.nav {
+  font-family: inherit;
+  font-size: 14;
+  font-weight: bold;
+  line-height: 26px;
+}
+
+.nav__link {
+  color: black;
+  text-decoration: none;
+  font-family: inherit;
+}
+
+.logo {
+  width: 138;
+  height: 70;
+}
+
+.main-headline {
+  font-size: 21;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.main-text {
+  font-size: 14;
+  line-height: 26px;
+  font-weight: normal;
+}
+
+.headline {
+  font-size: 21;
+  line-height: 21px;
+  font-weight: bold;
+}
+
+.text {
+  font-size: 14;
+  line-height: 21px;
+  font-weight: regular;
+}
+
+.side-headline {
+  font-size: 30;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.side-text {
+  font-size: 14;
+  line-height: 24px;
+  font-weight: normal;
+  color: #333333;
+}
+
+.form {
+  height: 481px;
+  border-width: 568px;
+  background-color: white;
+  box-shadow: 0px 7px 15px 0px #000101 15%;
+}
+
+.form-headline {
+  font-size: 21;
+  line-height: 26px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-color: #766357;
+  width: 568px;
+  height: 86px;
+}
+
+.input {
+  font-size: 14;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.button {
+  font-size: 21;
+  line-height: 26px;
+  font-weight: bold;
+  color: white;
+  background-color: #81b3d2;
+  width: 458px;
+  height: 58px;
+  border: transparent;
+}
+
+.footer {
+  background-color: white;
+  opacity: 90%;
+}
+
+.footer__link {
+  font-size: 21;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.social-network {
+  width: 46px;
+  height: 48px;
+  background-color: #81b3d2;
+  border: transparent;
+}
+.advantage {
+  background-color: #81b3d2;
+  color: white;
+}
+
+.side-advantages {
+  background-color: #eeeeee;
+  height: 256px;
+  width: 1200px;
+}

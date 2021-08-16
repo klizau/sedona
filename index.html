@@ -3,40 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-       <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
-       <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sedona</title>
   </head>
 
   <body class="page-body">
-    <div class="page">
     <header class="header">
-      <nav class="header__nav nav">
-        <ul class="nav__list">
-          <li class="nav__item"><a class="nav__link"  class="" href="blank.html">информация</a></li>
-          <li class="nav__item"><a class="nav__link"  href="blank.html">фото и видео</a></li>
-          <li class="logo">
-            <a class="nav__link" href="/">
-              <img src="img/logo.svg" alt="logo" />
+      <nav class="nav">
+        <ul class="nav-item">
+          <li><a href="blank.html">информация</a></li>
+          <li><a href="blank.html">фото и видео</a></li>
+          <li>
+            <a href="/">
+              <img src="./img/logo.svg" alt="logo" />
             </a>
           </li>
-          <li class="nav__item"><a class="nav__link"  href="blank.html">карта штата</a></li>
-          <li class="nav__item"><a class="nav__link"  href="hotels.html">гостиницы</a></li>
+          <li><a href="blank.html">карта штата</a></li>
+          <li><a href="hotels.html">гостиницы</a></li>
         </ul>
       </nav>
-      <img class='background-photo' src="./img/background-photo.png" alt="background-photo" width="1200px" height="509px">
-      <img src="./img/Shape.svg" alt="Shape" width="1200px" height="57px">
       <section class="logo">
         <div class="welcome">
-          <img src="./img/welcome.png" alt="welcome" width="187.7px" height="45.1px">
+          <strong>welcome</strong>
         </div>
         <div class="gorgeous">
-          <img src="./img/gorgeous.png" alt="gorgeous">
+          <i>to the gorgeous</i>
         </div>
-        <div class="sedona"><img src="./img/Shape.png" alt="sedona">
+        <h1 class="sedona">sedona</h1>
+        <div class="garand-canion"><q>"because the grand canion sucks"</q></div>
       </section>
     </header>
 
@@ -63,7 +57,6 @@
               <div class="offers">
               <ul>
                 <li class="living">
-                  <img src="./img/living.svg" alt="living" width="75px" height="72px">
                   <h4 class="headline">Жильё</h4>
                   <span class="text"
                     >Рекомендуем пожить в настоящем мотеле, всё как в
@@ -71,7 +64,6 @@
                   >
                 </li>
                 <li class="food">
-                  <img src="./img/food.svg" alt="food" width="75px" height="70px">
                   <h4 class="headline">Еда</h4>
                   <span class="text"
                     >Всегда заказывайте фирменный бургер, вы не
@@ -79,7 +71,6 @@
                   >
                 </li>
                 <li class="souvenirs">
-                  <img src="./img/suveniers.svg" alt="souvenirs" height="64px" height="77px">
                   <h4 class="headline">Сувениры</h4>
                   <span class="text"
                     >Не только китайского, но и местного производства!</span>
@@ -90,21 +81,21 @@
 
           <li>
             <div class="advantage">
-              <h3 class="headline">Там есть Мост дьявола</h3>
+              <h3 class="header">Там есть Мост дьявола</h3>
               <span class="text">Да, по нему можно пройти! Если конечно вы осмелитесь</span>
             </div>
           </li>
          <div class="side-advantages">
           <li class="side-advantage">
-            <h3 class="headline">небольшая площадь</h3>
+            <h3 class="header">небольшая площадь</h3>
             <span class="text">все достопримечательности находятся очень близко</span>
           </li>
           <li class="side-advantage">
-            <h3 class="headline">красивая дорога</h3>
+            <h3 class="header">красивая дорога</h3>
             <span class="taxt">ехать в седону из лас-вегаса совсем не скучно!</span>
           </li>
           <li class="side-advantage">
-            <h3 class="headline">мало туристов</h3>
+            <h3 class="header">мало туристов</h3>
             <span class="text">большинство едет в гранд каньон и толпится там</span>
           </li>
         </div>
@@ -118,20 +109,20 @@
           предложения гостиниц в седоне
         </p>
 
-        <h3 class="form-headline">поиск гостиницы в седоне</h3>
         <form class="form">
+          <h3 class="main-headline">поиск гостиницы в седоне</h3>
           <label class="input">
-            ДАТА ЗАЕЗДА:
+            дата заезда:
             <input name="created" />
           </label>
 
           <label class="input">
-            ДАТА ВЫЕЗДА:
+            дата выезда:
             <input name="created" />
           </label>
           <div>
             <!-- Title -->
-            <div class="input">ВЗРОСЛЫЕ:</div>
+            <div class="input">взрослые:</div>
           </div>
 
           <div class="item">
@@ -146,7 +137,7 @@
             </div>
           </div>
 
-          <div class="input">ДЕТИ:</div>
+          <div class="input">дети:</div>
           <div>
             <div>
               <button class="minus-btn" type="button" name="button">
@@ -158,21 +149,20 @@
               </button>
             </div>
           </div>
-          <button class="button" type="submit">НАЙТИ</button>
+          <button type="submit">найти</button>
         </form>
       </section>
-    </div>
     </main>
     <footer class="footer">
-      <p class="main-header"><a class="nav__link footer__link" href="blank.html">#VISITSEDONA</a></p>
+      <p class="main-header"><a href="blank.html">#visitsedona</a></p>
 
-      <p class="main-header"><a class="nav__link footer__link " href="tel:+74956660166">ТЕЛ: +7(495) 666-01-66</a></p>
+      <p class="main-header"><a href="tel:+74956660166">ТЕЛ: +7(495) 666-01-66</a></p>
 
-      <button class="social-network"><a  href="blank.html"><img src="./img/twitter.png" alt="twitter" /></a></button>
-      <button class="social-network"><a  href="blank.html"><img src="./img/fb-icon.png" alt="facebook" /></a></button>
-      <button class="social-network"><a  href="blank.html"><img src="./img/youtube.png" alt="youtube" /></a></button>
+      <button class="social-network"><a href="blank.html"><img src="./img/twitter.png" alt="twitter" /></a></button>
+      <button class="social-network"><a href="blank.html"><img src="./img/fb-icon.png" alt="facebook" /></a></button>
+      <button class="social-network"><a href="blank.html"><img src="./img/youtube.png" alt="youtube" /></a></button>
 
-      <p class="main-text">WEBCITE BY</p>
+      <p class="webcite-by">website by</p>
       <a href="https://htmlacademy.ru/study">
         <img src="./img/logo-htmlacademy.png" alt="logo-htmlacademy" />
       </a>
